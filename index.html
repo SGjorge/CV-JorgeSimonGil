@@ -39,22 +39,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">CV</a>
+                <a id="cvClick" class="navbar-brand" href="#">CV</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#education">Education</a>
+                        <a id="edClick" href="#education">Academic Education</a>
                     </li>
                     <li>
-                        <a href="#languaje">Languages</a>
+                        <a id="lanClick" href="#languaje">Languages</a>
                     </li>
                     <li>
-                        <a href="#pe">Profesional Experience</a>
+                        <a id="peClick" href="#pe">Profesional Experience</a>
                     </li>
                     <li>
-                        <a href="#abme">Aditional Information</a>
+                        <a id="abmeClick" href="#abme">About Me</a>
                     </li>
                 </ul>
             </div>
@@ -68,7 +68,7 @@
         <div class="headline">
             <div class="container">
                 <h1>Jorge Simón Gil</h1>
-                <h2>Telecommunications Engineer Student</h2>
+                <h2>Telecommunications Engineer</h2>
             </div>
         </div>
     </header>
@@ -81,38 +81,118 @@
         <!-- First Featurette -->
         <div class="featurette">
             <div class="row">
-                <div class="lead col-md-4 col-md-offset-3">
-                    12/03/1994<br>
+                <div class="lead col-md-4 col-md-offset-1">
+                    - 12/03/1994 -<br>
                     Madrid (28932) - Spain<br>
                     Nationality: Spanish<br>
-                    GitHub:<a href="https://github.com/SGjorge">SGjorge</a>
-                    j.simongi@alumnos.urjc.es<br>
+                    dtjorge_2@hotmail.com<br>
                     636671683
                 </div>
-                <img class="featurette-image img-circle img-responsive col-md-2" src="http://placehold.it/200x200">
+                <img class="featurette-image img-circle img-responsive col-md-2 " src="img/perfil.jpg">
+                <div class="row feature">
+                    <br/>
+                    <a href="https://github.com/SGjorge">
+                        <img href="https://github.com/SGjorge" class="img-circle img-responsive img-center"  width="50" height="50" src="img/github.png">
+                    </a>
+                    <br/>
+                    <a href="https://www.linkedin.com/in/jorge-simón-gil-400152aa">
+                        <img class="img-circle img-responsive img-center"  width="50" height="50" src="img/linked.jpg">
+                    </a>
+                </div>
             </div>
         </div>
 
+    <div id=edHidden hidden="hidden">
         <hr class="featurette-divider" id="education">
 
         <!-- Second Featurette -->
         <div class="featurette">
-            <h2 class="featurette-heading">Education</h2>
-                <div class="block-center">
-                    <h3>2012/Now - Telecomunication Tecnologies Degree - URJC</h3>
-                        <div class="col-lg-12">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    Donut Chart Example
+            <h2 class="featurette-heading">Academic Education</h2>
+                <p>Click on items for details</p>
+                <div class="block-center accordion">
+                    <h3 class="text-left">2017/Now - Telecomunication Tecnologies Master - URJC</h3>
+                    <div>
+                    <p><h3>Developed Skills</h3>
+                    <ul>
+                            <li>Programmer</li>
+                            <div class="row feature">
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/goland.jpg">
+                                    <h4>Goland</h4>
                                 </div>
-                                <!-- /.panel-heading -->
-                                <div class="panel-body">
-                                    <div id="morris-donut-chart"></div>
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/arduino.png">
+                                    <h4>Arduino</h4>
                                 </div>
-                                <!-- /.panel-body -->
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/vhdl.jpg">
+                                    <h4>VHDL</h4>
+                                </div>
                             </div>
-                            <!-- /.panel -->
-                        </div>
+                            <li>Project Manager</li>
+                            <div class="row feature">
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/scrum.jpg">
+                                    <h4>SCRUM</h4>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/pmbok.png">
+                                    <h4>PMBOK</h4>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/prince2.jpg">
+                                    <h4>PRINCE2</h4>
+                                </div>
+                            </div>
+                            <li>Maching Learning</li>
+                            <div class="row feature">
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/sk.png">
+                                    <h4>Sklearn - Modules</h4>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/pandas.png">
+                                    <h4>Pandas - Module</h4>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/tensor.jpg">
+                                    <h4>Tensor Flow</h4>
+                                </div>
+                            </div>
+                            <div class="row feature">
+                                <div class="col-lg-6 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/mathlab.jpg">
+                                    <h4>MatLab</h4>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/anaconda.png">
+                                    <h4>Anaconda</h4>
+                                </div>
+                            </div>
+                            <li>Microwaves</li>
+                            <div class="row feature">
+                                <div class="col-lg-3 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/smith.jpg">
+                                    <h4>Smith's Cards</h4>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/sparameters.png">
+                                    <h4>S Parameters</h4>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/analizador.jpg">
+                                    <h4>Vector & Nets Analizers</h4>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/strip.jpg">
+                                    <h4>Microstrip/stripline</h4>
+                                </div>
+                            </div>
+                    </ul>
+                    </div>
+
+                    <h3 class="text-left">2012/2017 - Telecomunication Tecnologies Bachelor - URJC</h3>
+                    <div>
                     <p><h3>Developed Skills</h3>
                         <ul>
                             <li>Programmer</li>
@@ -142,11 +222,34 @@
                                     <h4>ADA</h4>
                                 </div>
                             </div>
+                            <li>Data Base</li>
+                            <div class="row feature">
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/sql-server.png">
+                                    <h4>SQL</h4>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/sqlite.jpg">
+                                    <h4>SQLite</h4>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/mongodb.png">
+                                    <h4>Mongo DB</h4>
+                                </div>
+                            </div>
                             <li>Operating Systems</li>
                             <div class="row feature">
-                                <div class="col-lg-12 col-sm-6 text-center">
+                                <div class="col-lg-4 col-sm-6 text-center">
                                     <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/unix.gif">
                                     <h4>Unix</h4>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/win.png">
+                                    <h4>Windows</h4>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 text-center">
+                                    <img class="img-circle img-responsive img-center"  width="100" height="100" src="img/sql-server.png">
+                                    <h4>SQL Server</h4>
                                 </div>
                             </div>
                             <li>Web Develop</li>
@@ -196,11 +299,36 @@
                             </div>
                         </ul>
                     </p>
-                    <br>
-                    <h3>2010/2012 - Tecnologies High School - I.E.S. Clara Campoamor</h3>
+                    </div>
+                   
+                    <h3 class="text-left">2010/2012 - Tecnologies High School - I.E.S. Clara Campoamor</h3>
+                    <div>
+                    <p><h3>Why Tecnologies?</h3>
+                    When I was a child, I loved play video games and computer games. Stepwise I had developed my skills about computers gobernance, since I had grown from day by day.
+                    By this reason I choose Tecnologies at High School and at University.
+                    </p>
+                    </div>
+                    <h3 class="text-left">Courses</h3>
+                    <div>
+                    <p>
+                    <ul>
+                            <li><h3>R Statistics Course</h3>
+                                <p></p>
+                            </li>
+                            <li><h3>Dataton - Maching Learning</h3>
+                                <p></p>
+                            </li>
+                            <li><h3>Scrum & Kanban- Project Manager</h3>
+                                <p></p>
+                            </li>
+                    </ul>
+                    </p>
+                    </div>
                 </div>
         </div>
+    </div>
 
+    <div id=lanHidden hidden="hidden">
         <hr class="featurette-divider" id="languaje">
 
         <!-- Third Featurette -->
@@ -227,18 +355,26 @@
                             <td></td>
                             <td>English</td>
                             <td>Middle - Technical</td>
-                            <td>Without</td>
+                            <td>B1</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-
+        <p>
+        I become aware of my english certification is poor but it isn't my real english level. This grade earned three years ago, since I'm training my speaking skills and I improve it.<br>
+        When I have been finalized master, I'm going to eraned the next English certifications: B2,C1 and C2. It's matter of time.<br>
+        Also I have French knowledge, but I haven't any certification. Not sure but I will earned.
+        <br>
+        </p>
+    </div>
+    <div id=peHidden hidden="hidden">
         <hr class="featurette-divider" id="pe">
 
         <!-- Third Featurette -->
         <div class="featurette">
             <h2 class="featurette-heading">Profesional Experience</h2>
+            <p><h3>Abstract</h3>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
@@ -251,27 +387,89 @@
                     </thead>
                     <tbody>
                         <tr>
+                            <td>2016/Now</td>
+                            <td>BPM WebMethods Advisor</td>
+                            <td>Corus Consulting</td>
+                            <td>Leading manager enviroments<br>&<br>BPM Developer</td>
+                        </tr>
+                        <tr>
                             <td>2015/2016</td>
                             <td>Sociocultural Technical</td>
                             <td>Valforproes S.L.</td>
                             <td>Math teacher</td>
                         </tr>
                         <tr>
-                            <td>2012/2014</td>
-                            <td>Organizing Chess</td>
+                            <td>2011/2014</td>
+                            <td>Chess Organizer</td>
                             <td>A.D.A.M.</td>
-                            <td>Chess teacher and organizing chess tournament</td>
+                            <td>Chess teacher and chess tournament organizer </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+            </p>
+            <p>Click on items for details</p>
+            <div class="block-center accordion">
+                <h3 class="text-left">2016/Now - BPM WebMethods Advisor</h3>
+                <div>
+                <p class="text-left col-md-offset-2">
+                    Actually I'm a CorusConsulting employee, it's a small brand, whose tecnology is based on web and soa services.<br>
+                    My job is develop web applicatons using webMethods framework: IntegrationServer, ARIS Server or Mashzone. <br> 
+                    Also I'm the south america leading manager enviroments (Argentina, Uruguay, Paraguay and Colombia) <br> about administrative themes.
+                    <ul>
+                        <li>knowledge</li>
+                        <p class="text-left col-md-offset-2">
+                        This post is learnt me how difficult is managing projects. It's an art to develop by personal experience <br>
+                        and knowledge. I take on some issues like: <br>
+                            - You're too younger by manage. <br>
+                            - Lazzy people. <br>
+                            - Tricky people. <br>
+                        Also I'm learning or impruving technical skills based on programming.
+                        </p>
+                    </ul>
+                </p>
+                </div>
+                <h3 class="text-left">2015/2016 - Sociocultural Technical</h3>
+                <div>
+                <p class="text-left col-md-offset-2">
+                    While I had studied two years before University, the high school manager known my grades and what I was. <br>
+                    The high school manager known about me becouse I had been going at older students journey for I had finished. <br>
+                    At older students journey, I delivered some speechs about bachelor and university for high school students and <br>
+                    high school manager though that I had been a good reinforcement math and science teacher.
+                    <ul>
+                        <li>knowledge</li>
+                        <p class="text-left col-md-offset-2">
+                        I learnt two very important topic in my life. Becouse work with teenagers is very very hard. <br>
+                        - First knowledge: Children (People) demotivated think anything is impossible, but the same child (person) <br>
+                        with support and motivation can get all goals.<br>
+                        - Second knowledge: Someone can has a bad day but if all days are bad, something happend.
+                        </p>
+                    </ul>
+                </p>
+                </div>
+                <h3 class="text-left">2011/2014 - Chess Organizer</h3>
+                <div>
+                <p class="text-left col-md-offset-2">
+                    It's was my first job, I started it becouse I'm a good chess player and opportunity comes up. <br>
+                    I caught it becouse I need any money to pay some study bills and I thought it was a good opportunity. <br>
+                    Always it's better nothing or not do nothing.
+                    <ul>
+                        <li>knowledge</li>
+                        I learnt about transfer information. How to do interesting some and tranfer my love about topic (chess).
+                        Also I learnt how to be patient when someone is learning.
+                    </ul>
+                </p>
+                </div>
+            </div>
         </div>
+    </div>
 
+    <div id=abmeHidden hidden="hidden">
         <hr class="featurette-divider" id="abme">
 
         <!-- Fourth Featurette -->
         <div class="featurette">
-            <h2 class="featurette-heading">Aditional Information</h2>
+            <h2 class="featurette-heading">About Me</h2>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
@@ -289,7 +487,7 @@
                                 </div>
                             </td>
                             <td class="verticalLine">IEEE Member</td>
-                            <td>Tecnologies</td>
+                            <td>Tecnologies <br> & <br> Freak Geeks</td>
                         </tr>
                         <tr>
                             <td class="verticalLine"> Proactive
@@ -297,7 +495,7 @@
                                     <div class="progress-bar" role="progressbar" style="width:90%"></div>
                                 </div>
                             </td>
-                            <td class="verticalLine">TFG: heart ratio test<br>on python with MongoDB<br>(in progress)</td>
+                            <td class="verticalLine">TFG: heart ratio test<br>on python with MongoDB<br></td>
                             <td>Chess</td>
                         </tr>
                         <tr>
@@ -316,17 +514,40 @@
                                 </div>
                             </td>
                             <td class="verticalLine"></td>
-                            <td></td>
+                            <td> Travel </td>
+                        </tr>
+                        <tr>
+                            <td class="verticalLine"> Curiosity
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width:100%"></div>
+                                </div>
+                            </td>
+                            <td class="verticalLine">My favourite slogan is:</td>
+                            <td> No stop to learn, no die </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+            <h4 class="featurette-heading">About My Future</h4>
+            <p>
+            <h3>What do I want like employee?</h3>
+            <p> - An enterprise whose phylosophy allows merge job and life. I like job, but my job isn't my life.</p>
+            <p> - An enterprise where my job and result will be rated and it's recognize my virtue. </p>
+            <p> - An enterprise where both I and It develop together. </p>
+            <h3>What do I want develop like employee?</h3>
+            <p> - I'm going to start to learn the business's enterprise, becouse I want become a business head into enterprise.<br>
+            I want understand the business model, the tecnology develop to upgrade the values' enterprise, I'm been more eficient and adapter at future.
+            </p>
+            <h3>Why me, and no other?</h3>
+            <p> - Becouse I'm a man who know I want, loyal, sociable, curious and I'm full of power</p>
+            </p>
         </div>
-
+    </div>
 
         <!-- Footer -->
+        <hr class="featurette-divider" id="abme">
         <footer>
-            <a href="curriculum.pdf">CV.pdf</a> -
+            <a href="downResources/CV_Jorge_Simon_Gil-2018.pdf">CV.pdf</a> -
             <a href="https://SGjorge.github.io/X-Nav-5.7.8-JuegoAvanzado">juego en html5</a> -
             <a href="https://SGjorge.github.io/X-Nav-Bootstrap-Concurso">concurso bootstrap</a>
         </footer>
@@ -335,12 +556,14 @@
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- App JS -->
+    <script src="scripts/index.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-    <!-- App JS -->
 
 </body>
 
